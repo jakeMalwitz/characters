@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+a {
+  margin: 25px;
+  color: silver;
+  text-decoration: none;
+}
+
+img {
+  margin: 15px;
+}
+
+li {
+  margin: 10px;
+  display: inline-block;
+  color: lightblue;
+}
