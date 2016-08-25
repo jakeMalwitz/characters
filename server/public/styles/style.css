@@ -15,6 +15,7 @@ header {
   width: 100%;
   color: white;
   text-align: center;
+	text-shadow: .5px .5px red;
 }
 
 .container {
@@ -25,9 +26,9 @@ header {
 
 a{
   margin: 10px;
-  color: red;
+  color: white;
   text-decoration: none;
-  text-shadow: .5px .5px gray;
+  text-shadow: .5px .5px red;
 }
 
 main {
@@ -117,7 +118,7 @@ img {
 
 #animation #pokeball::before {
 	content: '';
-	background-color: red;
+	background-color: white;
 	border-radius: 5em 5em 0 0;
 	width: 15em;
 	height: 5em;
@@ -127,7 +128,7 @@ img {
 #animation #pokeball .pokeball-details {
 	width: 10em;
 	height: 1em;
-	background-color: gray;
+	background-color: red;
 	position: absolute;
 	top: 4.5em;
 }
@@ -137,7 +138,7 @@ img {
 	width: 3.5em;
 	height: 3.5em;
 	border-radius: 50%;
-	background-color: gray;
+	background-color: red;
 	position: absolute;
 	top: -1.25em;
 	left: 3.25em;
