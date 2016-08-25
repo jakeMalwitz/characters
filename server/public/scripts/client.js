@@ -14,19 +14,37 @@ myApp.config(["$routeProvider", function($routeProvider){
         templateUrl: "/views/partials/lugia.html",
         controller: "lugiaController"
       }).
+      when("/latios", {
+        templateUrl: "/views/partials/latios.html",
+        controller: "latiosController"
+      }).
+      when("/tyranitar", {
+        templateUrl: "/views/partials/tyranitar.html",
+        controller: "tyranitarController"
+      }).
+      when("/alakazam", {
+        templateUrl: "/views/partials/alakazam.html",
+        controller: "alakazamController"
+      }).
       otherwise({
         redirectTo: "/arcanine"
       });
 }]);
 
 myApp.controller("arcanineController", ["$scope", function($scope){
-    console.log("Super cats");
 }]);
 
 myApp.controller("gengarController", ["$scope", function($scope){
-    console.log("Dogs are neat");
 }]);
 
 myApp.controller("lugiaController", ["$scope", function($scope){
-    console.log("Lizards are toxic");
+}]);
+
+myApp.controller("latiosController", ["$scope", function($scope){
+}]);
+
+myApp.controller("tyranitarController", ["$scope", function($scope){
+}]);
+
+myApp.controller("alakazamController", ["$scope", function($scope){
 }]);
